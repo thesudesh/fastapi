@@ -1,0 +1,20 @@
+# services:
+#   web:
+#     # env_file:
+#     #   - .env
+#     restart: always
+#     build: .
+#     volumes:
+#       - .:/code
+#     ports:
+#       - "8000:8000"
+#     # networks:
+#     #   - task-network
+#     # depends_on:
+#     #   - redis
+#     #   - db
+#     entrypoint: bash /code/entrypoint.sh
+
+# networks:
+#   task-network:
+#     driver: bridge
