@@ -4,4 +4,3 @@ sqlalchemy
 databases
 pydantic
 passlib[bcrypt]
-python-jose
